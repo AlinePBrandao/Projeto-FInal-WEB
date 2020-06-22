@@ -1,0 +1,62 @@
+body { /*Fonte do site*/
+  font-family: Open Sans;
+  padding: 10px;
+  background: #ffbb99; /*fundo*/
+}
+
+/* estilo da barra de navegação/menu */
+.topnav {
+    overflow: hidden; /*estouro: oculto*/
+    background-color: #333;
+    list-style-type: none; /*deixar o menu fixo*/
+    margin: 0;
+    padding: 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+/* estilo dos links topnav */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /*estofamento*/
+    text-decoration: none;
+  }
+
+/* mudar a cor quando passar o mouse em cima da opção da barra de menu */
+.topnav a:hover {
+    background-color: #80ccff;
+    color: black;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+/* Adicionar efeito */
+.card {
+    color: white;
+    padding: 10px;
+    margin-top: 10px; /*margem superior*/
+}
+
+.header {
+  color: white;
+}
+
+.footer {
+  background-color: #80ccff;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.section {
+  background-color: #80ccff;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
